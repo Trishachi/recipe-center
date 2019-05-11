@@ -35,4 +35,10 @@
       </form>
     </td>
   </tr>
+  <tr>
+    <td><hr size="1" noshade="noshade" /></td>
+  </tr>
+  <tr>
+    <td><a href="index.php?content=newnews"><strong>Post News</strong></a></td>
+  </tr>
 </table>
