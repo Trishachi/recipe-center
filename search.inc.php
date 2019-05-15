@@ -5,7 +5,10 @@
     $search = $_GET['searchFor'];
     $words = explode(" ", $search);
     $phrase = implode("%' AND title LIKE '%", $words);
-    $query = "SELECT recipeid,title,shortdesc from recipes where title like '%$phrase%'";
+    $query = "SELECT recipeid,title,shortdesc from recipes where title like '%$phrase%'
+    or shortdesc like '%$phrase%'
+    or ingredients like '%$phrase%'
+    or directions like '%$phrase%'";
     $result = mysqli_query($con, $query) or die('Could not query database at this time');
     echo "<h1>Search Results</h1><br><br>\n";
     if (mysqli_num_rows($result) == 0)
