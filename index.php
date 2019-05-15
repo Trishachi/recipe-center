@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="print.css">
     <title> The Recipe Center</title>
   </head>
   <body>
