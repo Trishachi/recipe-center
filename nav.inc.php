@@ -17,6 +17,9 @@
     <td><a href="index.php?content=register"><strong>Register for free login</strong></a></td>
   </tr>
   <tr>
+    <td><a href="index.php?content=logout"><strong>Logout</strong></a></td>
+  </tr>
+  <tr>
     <td><hr size="1" noshade="noshade" /></td>
   </tr>
   <tr>
